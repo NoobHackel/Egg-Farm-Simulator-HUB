@@ -1,0 +1,29 @@
+--[[
+source : https://v3rmillion.net/showthread.php?tid=933716
+100% Working with:
+--Synapse X,
+--Sirhurt,
+--Calamari,
+--Helicity
+... and maybe some more, idk
+Your exploit needs those functions to work perfectly:
+--mouse1click(),
+--keypress(),
+--keyrelease()
+Without these functions Auto-Click and Auto-NextStage won't work
+--]]
+
+------------------------------------------------------------------------
+--
+-- Egg Farm Simulator GUI
+-- Made by repxrd#0347
+--
+-- Version 1.0
+-- Made with [Unofficial] GUI-Maker v2
+--
+------------------------------------------------------------------------
+
+--LOAD
+loadstring(game:HttpGet('https://pastebin.com/raw/mATGZjWL',true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/V3yiKkVh',true))()
+print("Script loaded succesfully, have fun :D")

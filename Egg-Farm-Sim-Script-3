@@ -1,0 +1,357 @@
+-- Discord.io/SomeoneShark
+-- Created by FunTrator#4964
+
+local affar = Instance.new("ScreenGui")
+local bar1 = Instance.new("Frame")
+local akb = Instance.new("TextButton")
+local af = Instance.new("TextButton")
+local ws = Instance.new("TextButton")
+local ctp = Instance.new("TextButton")
+local tpac = Instance.new("TextButton")
+local fffff = Instance.new("TextLabel")
+local tpad = Instance.new("TextButton")
+local ssssss = Instance.new("ImageLabel")
+local dddd = Instance.new("TextLabel")
+local wsjp = Instance.new("Frame")
+local wsjpvlv = Instance.new("TextBox")
+local wsv = Instance.new("TextButton")
+local jpv = Instance.new("TextButton")
+local lg = Instance.new("Frame")
+local dds = Instance.new("TextLabel")
+local uuuu = Instance.new("TextLabel")
+local rrrrrr = Instance.new("ImageLabel")
+local ffff = Instance.new("TextLabel")
+local hhhhhh = Instance.new("TextLabel")
+local jjjjjjjj = Instance.new("TextLabel")
+local qqqqq = Instance.new("TextLabel")
+local testres = Instance.new("TextButton")
+local git = Instance.new("TextButton")
+
+affar.Name = "affar"
+affar.Parent = game.CoreGui
+
+bar1.Name = "bar1"
+bar1.Parent = affar
+bar1.Active = true
+bar1.BackgroundColor3 = Color3.new(1, 1, 1)
+bar1.Position = UDim2.new(0.409278363, 0, 0.106571935, 0)
+bar1.Size = UDim2.new(0, 176, 0, 309)
+bar1.Style = Enum.FrameStyle.RobloxRound
+bar1.Draggable = true
+bar1.Visible = false
+
+lg.Name = "lg"
+lg.Parent = affar
+lg.BackgroundColor3 = Color3.new(1, 1, 1)
+lg.Position = UDim2.new(0.335051537, 0, 0.229129672, 0)
+lg.Size = UDim2.new(0, 320, 0, 263)
+lg.Style = Enum.FrameStyle.RobloxRound
+lg.Visible = true
+
+dds.Name = "dds"
+dds.Parent = lg
+dds.BackgroundColor3 = Color3.new(1, 1, 1)
+dds.BackgroundTransparency = 1
+dds.Position = UDim2.new(0.168749988, 0, 0.0114068445, 0)
+dds.Size = UDim2.new(0, 195, 0, 25)
+dds.Font = Enum.Font.Code
+dds.Text = "DARK DEVS"
+dds.TextColor3 = Color3.new(0.992157, 0, 0.0156863)
+dds.TextSize = 40
+
+uuuu.Name = "uuuu"
+uuuu.Parent = dds
+uuuu.BackgroundColor3 = Color3.new(1, 0, 0.14902)
+uuuu.Position = UDim2.new(-0.051282052, 0, 1.24000001, 0)
+uuuu.Size = UDim2.new(0, 215, 0, 1)
+uuuu.Font = Enum.Font.SourceSans
+uuuu.Text = ""
+uuuu.TextColor3 = Color3.new(0, 0, 0)
+uuuu.TextSize = 14
+
+rrrrrr.Name = "rrrrrr"
+rrrrrr.Parent = lg
+rrrrrr.BackgroundColor3 = Color3.new(1, 1, 1)
+rrrrrr.BackgroundTransparency = 1
+rrrrrr.Position = UDim2.new(-0.00312500168, 0, -0.0038023144, 0)
+rrrrrr.Size = UDim2.new(0, 306, 0, 249)
+rrrrrr.Image = "rbxassetid://2339712180"
+
+ffff.Name = "ffff"
+ffff.Parent = lg
+ffff.BackgroundColor3 = Color3.new(1, 1, 1)
+ffff.BackgroundTransparency = 0.75
+ffff.Position = UDim2.new(0.28125, 0, 0.243346021, 0)
+ffff.Size = UDim2.new(0, 127, 0, 26)
+ffff.Font = Enum.Font.SciFi
+ffff.Text = "FunTrator#4964"
+ffff.TextColor3 = Color3.new(0.0666667, 0.996078, 0.00392157)
+ffff.TextSize = 14
+
+hhhhhh.Name = "hhhhhh"
+hhhhhh.Parent = lg
+hhhhhh.BackgroundColor3 = Color3.new(1, 1, 1)
+hhhhhh.BackgroundTransparency = 0.80000001192093
+hhhhhh.Position = UDim2.new(0.28125, 0, 0.410646379, 0)
+hhhhhh.Size = UDim2.new(0, 127, 0, 26)
+hhhhhh.Font = Enum.Font.SciFi
+hhhhhh.Text = "Beer4Life#0708"
+hhhhhh.TextColor3 = Color3.new(0.0666667, 0.996078, 0.00392157)
+hhhhhh.TextSize = 14
+
+jjjjjjjj.Name = "jjjjjjjj"
+jjjjjjjj.Parent = lg
+jjjjjjjj.BackgroundColor3 = Color3.new(1, 1, 1)
+jjjjjjjj.BackgroundTransparency = 0.80000001192093
+jjjjjjjj.Position = UDim2.new(0.28125, 0, 0.566539884, 0)
+jjjjjjjj.Size = UDim2.new(0, 127, 0, 26)
+jjjjjjjj.Font = Enum.Font.SciFi
+jjjjjjjj.Text = "[YT] Arpon AG#1124"
+jjjjjjjj.TextColor3 = Color3.new(0.0666667, 0.996078, 0.00392157)
+jjjjjjjj.TextSize = 14
+
+qqqqq.Name = "qqqqq"
+qqqqq.Parent = lg
+qqqqq.BackgroundColor3 = Color3.new(1, 1, 1)
+qqqqq.BackgroundTransparency = 0.80000001192093
+qqqqq.Position = UDim2.new(0.28125, 0, 0.730037987, 0)
+qqqqq.Size = UDim2.new(0, 127, 0, 26)
+qqqqq.Font = Enum.Font.SciFi
+qqqqq.Text = "SilentWraith#0689"
+qqqqq.TextColor3 = Color3.new(0.0666667, 0.996078, 0.00392157)
+qqqqq.TextSize = 14
+
+testres.Name = "testres"
+testres.Parent = lg
+testres.BackgroundColor3 = Color3.new(1, 0.00784314, 0.0235294)
+testres.Position = UDim2.new(0.543749988, 0, 0.912547529, 0)
+testres.Size = UDim2.new(0, 48, 0, 16)
+testres.Font = Enum.Font.SciFi
+testres.Text = "Testers"
+testres.TextColor3 = Color3.new(0, 0, 0)
+testres.TextSize = 14
+
+git.Name = "git"
+git.Parent = lg
+git.BackgroundColor3 = Color3.new(1, 0.992157, 0.996078)
+git.Position = UDim2.new(0.29687497, 0, 0.912547529, 0)
+git.Size = UDim2.new(0, 48, 0, 16)
+git.Font = Enum.Font.SciFi
+git.Text = "DONE"
+git.TextColor3 = Color3.new(0, 0, 0)
+git.TextSize = 14
+git.MouseButton1Down:connect(function()
+	wait(1)
+	lg.Visible = false
+	wait(1)
+	bar1.Visible = true
+end)
+
+akb.Name = "akb"
+akb.Parent = bar1
+akb.BackgroundColor3 = Color3.new(1, 1, 1)
+akb.Position = UDim2.new(0.0561771542, 0, 0.0114503857, 0)
+akb.Size = UDim2.new(0, 140, 0, 38)
+akb.Style = Enum.ButtonStyle.RobloxRoundButton
+akb.Font = Enum.Font.SciFi
+akb.Text = "AFK Bypass"
+akb.TextColor3 = Color3.new(0, 0.992157, 0.0862745)
+akb.TextSize = 14
+akb.MouseButton1Down:connect(function()
+	for i = 1, math.huge do
+wait(20)
+for i,v in pairs(game.Workspace.Obby.Obstacles.Treasures:GetChildren()) do
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+end)
+
+af.Name = "af"
+af.Parent = bar1
+af.BackgroundColor3 = Color3.new(1, 1, 1)
+af.Position = UDim2.new(0.0561771542, 0, 0.169682041, 0)
+af.Size = UDim2.new(0, 140, 0, 38)
+af.Style = Enum.ButtonStyle.RobloxRoundButton
+af.Font = Enum.Font.SciFi
+af.Text = "Auto Farm"
+af.TextColor3 = Color3.new(0, 0.992157, 0.0862745)
+af.TextSize = 14
+af.MouseButton1Down:connect(function()
+	while true do
+wait(0.1)
+local A_1 = "\80\105\99\107\117\112"
+local A_2 = 
+{
+   [1] = 1, 
+   [2] = 0
+}
+local Event = game:GetService("ReplicatedStorage").Events.Money
+Event:FireServer(A_1, A_2)
+end
+end)
+
+ws.Name = "ws"
+ws.Parent = bar1
+ws.BackgroundColor3 = Color3.new(1, 1, 1)
+ws.Position = UDim2.new(0.0561771542, 0, 0.321935058, 0)
+ws.Size = UDim2.new(0, 140, 0, 38)
+ws.Style = Enum.ButtonStyle.RobloxRoundButton
+ws.Font = Enum.Font.SciFi
+ws.Text = "WalkSpeed"
+ws.TextColor3 = Color3.new(0, 0.992157, 0.0862745)
+ws.TextSize = 14
+ws.MouseButton1Down:connect(function()
+	if wsjp.Visible == false then
+		wsjp.Visible = true else
+		wsjp.Visible = false
+	end
+end)
+
+ctp.Name = "ctp"
+ctp.Parent = bar1
+ctp.BackgroundColor3 = Color3.new(1, 1, 1)
+ctp.Position = UDim2.new(0.0618589744, 0, 0.479586154, 0)
+ctp.Size = UDim2.new(0, 140, 0, 38)
+ctp.Style = Enum.ButtonStyle.RobloxRoundButton
+ctp.Font = Enum.Font.SciFi
+ctp.Text = "Click TP [R]"
+ctp.TextColor3 = Color3.new(0, 0.992157, 0.0862745)
+ctp.TextSize = 14
+ctp.MouseButton1Down:connect(function()
+	plr   = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+if key == "r" then
+if mouse.Target then
+plr.Character.HumanoidRootPart.CFrame = CFrame.new(mouse.Hit.x, mouse.Hit.y + 5, mouse.Hit.z)
+end
+end
+end)
+end)
+
+tpac.Name = "tpac"
+tpac.Parent = bar1
+tpac.BackgroundColor3 = Color3.new(1, 1, 1)
+tpac.Position = UDim2.new(0.0675407946, 0, 0.633802593, 0)
+tpac.Size = UDim2.new(0, 140, 0, 38)
+tpac.Style = Enum.ButtonStyle.RobloxRoundButton
+tpac.Font = Enum.Font.SciFi
+tpac.Text = "Teleport All Chests"
+tpac.TextColor3 = Color3.new(0, 0.992157, 0.0862745)
+tpac.TextSize = 14
+tpac.MouseButton1Down:connect(function()
+	for i,v in pairs(game.Workspace.Obby.Obstacles.Treasures:GetChildren()) do
+v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(math.random(-20,20),0,math.random(-20,20))
+end
+end)
+
+fffff.Name = "fffff"
+fffff.Parent = bar1
+fffff.BackgroundColor3 = Color3.new(1, 1, 1)
+fffff.BackgroundTransparency = 1
+fffff.Position = UDim2.new(0.0476804078, 0, 0.957059383, 0)
+fffff.Size = UDim2.new(0, 147, 0, 15)
+fffff.Font = Enum.Font.SciFi
+fffff.Text = "Created By FunTrator#4964"
+fffff.TextColor3 = Color3.new(0.780392, 0, 0.996078)
+fffff.TextSize = 12
+
+tpad.Name = "tpad"
+tpad.Parent = bar1
+tpad.BackgroundColor3 = Color3.new(1, 1, 1)
+tpad.Position = UDim2.new(0.0675407946, 0, 0.801738024, 0)
+tpad.Size = UDim2.new(0, 140, 0, 38)
+tpad.Style = Enum.ButtonStyle.RobloxRoundButton
+tpad.Font = Enum.Font.SciFi
+tpad.Text = "TP All Diamonds"
+tpad.TextColor3 = Color3.new(0, 0.992157, 0.0862745)
+tpad.TextSize = 14
+tpad.MouseButton1Down:connect(function()
+	for i = 1, math.huge do
+wait(20)
+local LocalFarm = nil
+for i, a in pairs(game:GetDescendants()) do
+if a:IsA("ObjectValue") then
+if a.Value == game.Players.LocalPlayer then
+LocalFarm = a.Parent
+end
+end
+end
+for i,b in pairs(LocalFarm.Diamonds:GetChildren()) do
+b.CanCollide = true
+wait(0.5)
+b.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+end
+end)
+
+ssssss.Name = "ssssss"
+ssssss.Parent = affar
+ssssss.BackgroundColor3 = Color3.new(1, 1, 1)
+ssssss.BackgroundTransparency = 1
+ssssss.Position = UDim2.new(-9.31322575e-10, 0, -0.0177619923, 0)
+ssssss.Size = UDim2.new(0, 68, 0, 64)
+ssssss.Image = "rbxassetid://2339712180"
+
+dddd.Name = "dddd"
+dddd.Parent = affar
+dddd.BackgroundColor3 = Color3.new(1, 1, 1)
+dddd.BackgroundTransparency = 0.80000001192093
+dddd.Position = UDim2.new(0.007216495, 0, 0.0799289569, 0)
+dddd.Size = UDim2.new(0, 140, 0, 15)
+dddd.Font = Enum.Font.SciFi
+dddd.Text = "Discord.Io/SomeoneShark"
+dddd.TextColor3 = Color3.new(0.780392, 0, 0.996078)
+dddd.TextSize = 12
+
+wsjp.Name = "wsjp"
+wsjp.Parent = affar
+wsjp.Active = true
+wsjp.BackgroundColor3 = Color3.new(1, 1, 1)
+wsjp.Position = UDim2.new(0.630927861, 0, 0.539964497, 0)
+wsjp.Size = UDim2.new(0, 137, 0, 100)
+wsjp.Visible = false
+wsjp.Style = Enum.FrameStyle.RobloxRound
+
+wsjpvlv.Name = "wsjpvlv"
+wsjpvlv.Parent = wsjp
+wsjpvlv.BackgroundColor3 = Color3.new(0.0313726, 0.0313726, 0.0313726)
+wsjpvlv.Position = UDim2.new(0.0656934306, 0, 0.0300000086, 0)
+wsjpvlv.Size = UDim2.new(0, 104, 0, 28)
+wsjpvlv.Font = Enum.Font.SciFi
+wsjpvlv.Text = "VALVE"
+wsjpvlv.TextColor3 = Color3.new(0.00784314, 1, 0.0705882)
+wsjpvlv.TextSize = 14
+
+wsv.Name = "wsv"
+wsv.Parent = wsjp
+wsv.BackgroundColor3 = Color3.new(1, 1, 1)
+wsv.Position = UDim2.new(0.124087594, 0, 0.569999993, 0)
+wsv.Size = UDim2.new(0, 36, 0, 26)
+wsv.Style = Enum.ButtonStyle.RobloxRoundButton
+wsv.Font = Enum.Font.SciFi
+wsv.Text = "WS"
+wsv.TextColor3 = Color3.new(0, 0, 0)
+wsv.TextSize = 14
+wsv.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = wsjpvlv.Text
+end)
+
+jpv.Name = "jpv"
+jpv.Parent = wsjp
+jpv.BackgroundColor3 = Color3.new(1, 1, 1)
+jpv.Position = UDim2.new(0.56934309, 0, 0.569999993, 0)
+jpv.Size = UDim2.new(0, 36, 0, 26)
+jpv.Style = Enum.ButtonStyle.RobloxRoundButton
+jpv.Font = Enum.Font.SciFi
+jpv.Text = "JP"
+jpv.TextColor3 = Color3.new(0, 0, 0)
+jpv.TextSize = 14
+jpv.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = wsjpvlv.Text
+end)
+warn("===================================================")
+warn("============== Egg Farm Simulator Gui =============")
+warn("================ By FunTrator#4964 ================")
+warn("! LOADED SUCCESSFULLYY !")
+warn("Discord.Io/SomeoneShark")

